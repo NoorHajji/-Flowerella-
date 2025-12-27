@@ -1,0 +1,190 @@
+/* ===== Body ===== */
+body {
+  font-family: "Segoe UI", Arial;
+  direction: rtl;
+  background: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+
+/* ===== العنوان الرئيسي ===== */
+ .banner {
+  background-color: #fff1fb; 
+  padding: 20px;
+  margin-bottom: 30px;
+  
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: #fff9fc; 
+  text-shadow: 2px 2px 8px rgba(255, 0, 128, 0.5);    
+  background-color: #fceef4;
+}
+
+ .latest {
+  color: #ffffff; 
+}
+
+.banner .products {
+  color: #ff69b400;
+}
+/* ===== العنوان الفرعي ===== */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+
+  background: rgba(230, 42, 99, 0.718);
+
+  background-clip: text;          
+  -webkit-background-clip: text;  
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 1px 1px 8px rgba(212, 93, 125, 0.5);
+}
+
+/* ===== Products Grid ===== */
+.products {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+}
+
+/* ===== Product Card ===== */
+.product {
+  background: #f8f5f6; 
+  border-radius: 15px;
+  padding: 15px;
+  width: 220px;
+  box-shadow: 0 6px 15px rgba(231, 84, 128, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(231, 84, 128, 0.3);
+}
+
+.product h3 {
+  color: #c86c6c;
+  margin-bottom: 5px;
+}
+
+.product p {
+  color: #9f6262;
+  margin-bottom: 10px;
+}
+
+/* ===== Product Images ===== */
+.product-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: linear-gradient(135deg, #ff6eb4, #e75480);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(231, 84, 128, 0.6);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(231, 84, 128, 0.8);
+  background: linear-gradient(135deg, #e75480, #ff6eb4);
+}
+
+/* ===== Cart ===== */
+.cart {
+  background: #ffe6f0; 
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 6px 20px rgba(231, 84, 128, 0.2);
+}
+
+
+/* ===== Cart Items ===== */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.cart-item:hover {
+  background-color: #fff0f5; 
+}
+
+
+.cart-item span {
+  color: #b03060;
+  font-weight: 500;
+}
+
+.cart-item input {
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  color: #b03060;     
+  font-weight: bold;
+  font-size: 14px;
+  background-color: white;
+}
+/* ===== Total ===== */
+.total {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #b03060;
+  font-weight: bold;
+}
+
+/* ===== Checkout Button ===== */
+.checkout {
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #ff6eb4, #e75480);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(231, 84, 128, 0.6);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.checkout:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(231, 84, 128, 0.8);
+  background: linear-gradient(135deg, #e75480, #ff6eb4);
+}

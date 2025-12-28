@@ -1,23 +1,21 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import MainLayout from "./MainLayout";
-
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Product from "./pages/prouduct";
+import Products from "./pages/prouduct";
 import Login from "./pages/login";
 import Stories from "./pages/stories";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
-      { path: "products", element: <Product /> },
+      { path: "products", element: <Products /> },
       { path: "login", element: <Login /> },
       { path: "stories", element: <Stories /> },
     ],
   },
 ]);
-

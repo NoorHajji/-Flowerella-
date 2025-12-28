@@ -1,20 +1,20 @@
 import { useState } from "react";
-import "./App.css";
-import Rosee from "./assets/img/m.jpeg";
-import Rose1 from "./assets/img/v.jpeg";
-import Rose2 from "./assets/img/vv.jpeg";
-import Rose3 from "./assets/img/cc.jpeg";
-import Rose4 from "./assets/img/n.jpeg";
-import Rose5 from "./assets/img/vvv.jpeg";
+import "../product.css";
+import Rosee from "../assets/img/m.jpeg";
+import Rose1 from "../assets/img/v.jpeg";
+import Rose2 from "../assets/img/vv.jpeg";
+import Rose3 from "../assets/img/cc.jpeg";
+import Rose4 from "../assets/img/n.jpeg";
+import Rose5 from "../assets/img/vvv.jpeg";
 
-// نوع المنتج
+
 interface Product {
   name: string;
   price: number;
   img: string;
 }
 
-// نوع المنتج داخل السلة
+
 interface CartItem extends Product {
   qty: number;
 }

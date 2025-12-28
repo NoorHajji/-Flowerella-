@@ -1,17 +1,24 @@
 import React from "react";
-import "./CSS1.css"; 
+import "../storiesflower.css"; 
+import Rosee from "../assets/img/m.jpeg";
+import Rose1 from "../assets/img/v.jpeg";
+import Rose2 from "../assets/img/vv.jpeg";
+import Rose3 from "../assets/img/cc.jpeg";
+import Rose4 from "../assets/img/n.jpeg";
+import Rose5 from "../assets/img/vvv.jpeg";
 
 const stories = [
   {
-      image: "African Daisy.jpg",
+    image: Rose3,
     alt: "Yellow Lilie",
     tag: "Joy",
     title: "Yellow Lilie",
-    description: "Yellow lilies symbolize happiness, gratitude, and positivity. They bring warmth and brightness to any space.",
+    description:
+      "Yellow lilies symbolize happiness, gratitude, and positivity. They bring warmth and brightness to any space.",
     info: ["☀ Loves Sun", "💧 Medium Water"],
   },
   {
-    image: "Jasmine.webp",
+    image: Rose2,
     alt: "Lavender",
     tag: "Calm",
     title: "Lavender",
@@ -20,7 +27,7 @@ const stories = [
     info: ["🌤 Full Sun", "💧 Low Water"],
   },
   {
-    image: "Lily.webp",
+    image: Rose1,
     alt: "Phalaenopsis Orchid",
     tag: "Elegance",
     title: "Phalaenopsis Orchid",
@@ -29,7 +36,7 @@ const stories = [
     info: ["🌥 Indirect Light", "💧 Weekly Water"],
   },
   {
-    image: "Orchid.webp",
+    image: Rosee,
     alt: "Pink Tulips",
     tag: "Affection",
     title: "Pink Tulips",
@@ -38,7 +45,7 @@ const stories = [
     info: ["☀ Loves Sun", "💧 Medium Water"],
   },
   {
-    image: "tulip.jpg",
+    image: Rose5,
     alt: "Daisies",
     tag: "Innocence",
     title: "Daisies",
@@ -47,7 +54,7 @@ const stories = [
     info: ["☀ Loves Sun", "💧 Medium Water"],
   },
   {
-    image: "Lavender.jpg",
+    image: Rose4,
     alt: "Madagascar Jasmine",
     tag: "Romance",
     title: "Madagascar Jasmine",

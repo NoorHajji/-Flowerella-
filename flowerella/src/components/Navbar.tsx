@@ -25,7 +25,11 @@ export default function Navbar() {
                         Products
                     </NavLink>
 
-                    <span style={styles.disabled}>FlowerGuide</span>
+                    <NavLink to="/stories"
+                    style={({ isActive }) => linkStyle(isActive)}
+                    
+                    >FlowerGuide</NavLink>
+
                 </nav>
 
 

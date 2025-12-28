@@ -1,14 +1,14 @@
-/* ===== Body ===== */
+
 body {
   font-family: "Segoe UI", Arial;
-  
+
   background: #ffffff;
   margin: 0;
   padding: 20px;
 }
 
 
-/* ===== العنوان الرئيسي ===== */
+
  .banner {
   background-color: #fff1fb; 
   padding: 20px;
@@ -34,7 +34,7 @@ body {
 .banner .products {
   color: #ff69b400;
 }
-/* ===== العنوان الفرعي ===== */
+
 h2 {
   text-align: center;
   font-size: 28px;
@@ -52,7 +52,7 @@ h2 {
   text-shadow: 1px 1px 8px rgba(212, 93, 125, 0.5);
 }
 
-/* ===== Products Grid ===== */
+
 .products {
   display: flex;
   gap: 20px;
@@ -62,7 +62,7 @@ h2 {
 
 }
 
-/* ===== Product Card ===== */
+
 .product {
   background: #f8f5f6; 
   border-radius: 15px;
@@ -88,7 +88,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* ===== Product Images ===== */
+
 .product-img {
   width: 100%;
   height: 150px;
@@ -97,7 +97,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* ===== Buttons ===== */
+
 button {
   background: linear-gradient(135deg, #ff6eb4, #e75480);
   color: white;
@@ -116,7 +116,7 @@ button:hover {
   background: linear-gradient(135deg, #e75480, #ff6eb4);
 }
 
-/* ===== Cart ===== */
+
 .cart {
   background: #ffe6f0; 
   border-radius: 15px;
@@ -126,7 +126,7 @@ button:hover {
 }
 
 
-/* ===== Cart Items ===== */
+
 .cart-item {
   display: flex;
   justify-content: space-between;

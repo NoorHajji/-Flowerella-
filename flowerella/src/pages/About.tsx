@@ -57,65 +57,81 @@ export default function About() {
 const styles: Record<string, React.CSSProperties> = {
   about: {
     position: "relative",
-    height: "80vh",
+    height: "85vh",
     overflow: "hidden",
     textAlign: "center",
   },
+
   image: {
     width: "100%",
     height: "100%",
     objectFit: "cover",
+    filter: "brightness(75%)",
   },
+
   content: {
     position: "absolute",
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    maxWidth: "800px",
+    maxWidth: "850px",
     color: "#fff",
-    padding: "0 20px",
+    padding: "30px",
+    background: "rgba(255, 255, 255, 0.15)",
+    backdropFilter: "blur(6px)",
+    borderRadius: "20px",
   },
+
   title: {
-    color: "#ff00b3ff",
-    fontSize: "3rem",
-    fontWeight: 700,
+    color: "#ff4da6",
+    fontSize: "3.5rem",
+    fontWeight: 800,
     marginBottom: "20px",
+    letterSpacing: "1px",
   },
+
   text: {
-    fontSize: "23px",
-    lineHeight: 1.6,
-    fontWeight: "bold",
-  },
-  storySection: {
-    padding: "80px 20px",
-    background: "#fff",
-    textAlign: "center",
-  },
-  subtitle: {
-    fontSize: "40px",
-    color: "#e84393",
-    marginBottom: "20px",
-    marginTop: "9px",
-  },
-  storyText: {
-    maxWidth: "800px",
-    margin: "0 auto",
     fontSize: "22px",
-    lineHeight: 1.7,
-    color: "#050505ff",
-    fontWeight: "bold",
+    lineHeight: 1.8,
+    fontWeight: 500,
   },
-  faqSection: {
-    padding: "40px 20px",
-    background: "#f9f9f9",
+
+  storySection: {
+    padding: "90px 20px",
+    background: "linear-gradient(180deg, #fff, #ffe6f0)",
     textAlign: "center",
   },
+
+  subtitle: {
+    fontSize: "42px",
+    color: "#e84393",
+    marginBottom: "25px",
+    fontWeight: 700,
+  },
+
+  storyText: {
+    maxWidth: "850px",
+    margin: "0 auto",
+    fontSize: "21px",
+    lineHeight: 1.9,
+    color: "#444",
+  },
+
+  faqSection: {
+    padding: "70px 20px",
+    background: "#fff5fa",
+    textAlign: "center",
+  },
+
   faqItem: {
-    background: "#fff",
-    padding: "15px",
-    marginBottom: "10px",
-    borderRadius: "8px",
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    background: "#ffffff",
+    padding: "20px 25px",
+    margin: "15px auto",
+    maxWidth: "800px",
+    borderRadius: "15px",
+    boxShadow: "0 10px 25px rgba(232, 67, 147, 0.15)",
     cursor: "pointer",
+    transition: "all 0.3s ease",
   },
 };
+

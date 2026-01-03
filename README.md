@@ -1,9 +1,9 @@
-Florella is a flower boutique project that showcases a wide variety of flowers, each with its own unique characteristics and detailed information.
+Flowrella is a flower boutique project that showcases a wide variety of flowers, each with its own unique characteristics and detailed information.
 The project is designed to present flowers in an elegant and organized way, reflecting the beauty and diversity of nature.
 
 🌸 About the Project
 
-Florella is an online flower boutique where users can explore different types of flowers.
+Flowrella is an online flower boutique where users can explore different types of flowers.
 Each flower includes information such as:
 
 -Flower name
@@ -37,4 +37,4 @@ This project was created as part of a learning/practical assignment to practice:
 
 🌺 Project Name Meaning
 
-Florella comes from the word flora, symbolizing flowers, growth, and beauty — perfectly representing a flower boutique.
+Flowrella comes from the word flora, symbolizing flowers, growth, and beauty — perfectly representing a flower boutique.
